@@ -1,0 +1,15 @@
+{% load static %}
+<html>
+    <head>
+        <title>Django Girls blog</title>
+       
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    </head>
+    <body>
+        <h5 style="margin-left: 95%; "><a style="text-decoration: none; border-bottom:none;" href="admin\">admin</a></h5>
+        
+
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
